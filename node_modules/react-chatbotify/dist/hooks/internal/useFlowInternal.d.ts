@@ -1,9 +1,0 @@
-/**
- * Internal custom hook for managing flow.
- */
-export declare const useFlowInternal: () => {
-    hasFlowStarted: boolean;
-    restartFlow: () => Promise<void>;
-    getFlow: () => import("../..").Flow;
-};
-//# sourceMappingURL=useFlowInternal.d.ts.map
