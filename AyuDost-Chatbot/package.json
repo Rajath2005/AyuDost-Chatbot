@@ -1,13 +1,15 @@
 {
+  "homepage": "https://Rajath2005.github.io/AyuDost-Chatbot",
   "name": "ayudost-chatbot",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.1.1",
